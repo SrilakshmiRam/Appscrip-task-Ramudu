@@ -1,0 +1,347 @@
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .home-products-section {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    display: none;
+  }
+  
+  .category-item-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #252020;
+    margin-bottom: 0px;
+    font-weight: 800;
+  }
+  
+  .category-span-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #252020;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .categories-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .all-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-shop {
+    margin-top: 5px;
+  }
+  
+  .number-items {
+    display: none;
+  }
+  
+  .home-text {
+    font-family:
+      Arial,
+      sans-serif,
+      Simplon Norm;
+    font-size: 12px;
+    color: #bfc8cd;
+    border-right: 1px solid #bfc8cd;
+    padding-right: 10px;
+  }
+  
+  .shop-text {
+    font-family:
+      Arial,
+      sans-serif,
+      Simplon Norm;
+    font-size: 12px;
+    color: #252020;
+    padding-left: 10px;
+  }
+  
+  .home-title {
+    font-family: Simplon Norm;
+    font-size: 16px;
+    font-weight: 600;
+    color: #252020;
+    text-align: center;
+  }
+  
+  .description {
+    font-family: Simplon Norm;
+    font-size: 10px;
+    color: #252020;
+    text-align: center;
+  }
+  
+  .filter-recommended {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .recommended-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recommended {
+    font-family: Simplon Norm;
+    font-size: 10px;
+    font-weight: 700;
+    color: #252020;
+    border-left: 1px solid #e5e5e5;
+    margin-right: 5px;
+    padding-left: 10px;
+  }
+  
+  .filter {
+    font-family: Simplon Norm;
+    font-size: 10px;
+    font-weight: 700;
+    color: #252020;
+  }
+  
+  .recommended-icon-show {
+    display: none;
+  }
+  
+  .products-lists {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .details-container {
+    background-color: #000000;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .firstknow-text {
+    font-family:
+      Arial,
+      sans-serif,
+      Simplon Norm;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .para-text {
+    font-family:
+      Arial,
+      sans-serif,
+      Simplon Norm;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .input-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-button {
+    height: 35px;
+    width: 80px;
+    background-color: transparent;
+    border: 1.14px solid #e5e5e5;
+    color: #ffffff;
+    font-family: Simplon Norm;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5px;
+    border-radius: 3px;
+  }
+  
+  .input-text {
+    width: 120px;
+    height: 33px;
+    font-family: Simplon Norm;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+  }
+  
+  .hr-rule {
+    border: 1px #e5e5e5 solid;
+    width: 100%;
+    margin-right: 15px;
+  }
+  
+  .number-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    font-family: Simplon Norm;
+    font-size: 9px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .country-currency {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .line {
+    border: 1px solid #ffffff;
+    width: 100%;
+    margin-right: 15px;
+  }
+  
+  .filter-recommended-morethan-small-devices {
+    display: none;
+  }
+  
+  .details-container-for-morethan-extra-small {
+    display: none;
+  }
+  
+  @media screen and (min-width: 577px) {
+    .details-container {
+      display: none;
+    }
+  
+    .details-container-for-morethan-extra-small {
+      display: flex;
+      flex-direction: column;
+      background-color: #000000;
+      min-height: 100vh;
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .number-email-1 {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .section-1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .input-text {
+      width: 200px;
+    }
+  
+    .hr-rule {
+      width: 100%;
+    }
+  
+    .text {
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+    }
+  
+    .input-subscribe-container {
+      margin-right: 30px;
+    }
+  
+    .description {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .home-shop {
+      display: none;
+    }
+  
+    .hide-filter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .filter-recommended-morethan-small-devices {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .showfilter {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      color: #888792;
+      text-decoration: underline;
+    }
+  
+    .filter {
+      display: none;
+    }
+  
+    .recommended-icon-show {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 12px;
+    }
+  
+    .number-items {
+      font-family: Simplon Norm;
+      font-size: 10px;
+      font-weight: 700;
+      color: #252020;
+      display: flex;
+    }
+  
+    .sidebar {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    .products-lists {
+      width: 70%;
+    }
+  }
+  

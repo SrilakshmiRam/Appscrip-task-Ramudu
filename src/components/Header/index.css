@@ -1,0 +1,93 @@
+.icons-list {
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .responsive {
+    display: none;
+  }
+  
+  .header-container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .hamburger-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #000000;
+  }
+  
+  .image {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .icon {
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+  }
+  
+  .sections-container {
+    display: none;
+    padding-left: 0px;
+  }
+  
+  .response-header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .category-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #252020;
+    margin: 6px;
+  }
+  
+  @media screen and (min-width: 577px) {
+    .responsive {
+      display: flex;
+    }
+  
+    .show {
+      display: none;
+    }
+  
+    .text-eng {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      color: #252020;
+    }
+  
+    .li-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .sections-container {
+      display: flex;
+      padding-left: 0px;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      margin: 0px;
+    }
+  }
+  

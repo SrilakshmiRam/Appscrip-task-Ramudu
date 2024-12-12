@@ -1,0 +1,147 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .other-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .payment-button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mettamuse-accepted-payment-forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-button1 {
+    height: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    border-width: 0px;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .circle1 {
+    height: 12px;
+    width: 12px;
+    background-color: #eb001b;
+    border-radius: 50%;
+  }
+  
+  .circle2 {
+    height: 12px;
+    width: 12px;
+    background-color: #f79e1b;
+    border-radius: 50%;
+  }
+  
+  .payment-icon {
+    height: 10px;
+    width: 25pxpx;
+  }
+  
+  .payment-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 6px;
+  }
+  
+  .payment-button2 {
+    height: 25px;
+    background-color: #006fcf;
+    width: 45px;
+    border-width: 0px;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .payment-button3 {
+    height: 25px;
+    background-color: #5a31f4;
+    width: 45px;
+    border-width: 0px;
+    margin: 2px;
+    border-radius: 4px;
+  }
+  
+  .footer-last {
+    font-family:
+      Arial,
+      sans-serif,
+      Simplon Norm;
+    font-size: 9px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer-containerfor-morethan-extrasmalldevices {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer-container {
+      display: none;
+    }
+  
+    .footer-containerfor-morethan-extrasmalldevices {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .section-list-1 {
+      padding-left: 0px;
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+    }
+  
+    .header {
+      padding-bottom: 13px;
+    }
+  
+    .insta-icon {
+      color: #ffffff;
+      border: 1px #ffffff solid;
+      padding: 5px;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+    }
+  
+    .linkedin-icon {
+      color: #ffffff;
+      border: 1px #ffffff solid;
+      padding: 5px;
+      border-radius: 50%;
+      margin-left: 10px;
+      height: 20px;
+      width: 20px;
+    }
+  
+    .insta-linkedins {
+      display: flex;
+      align-items: center;
+    }
+  
+    .response-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .footer-last {
+      font-size: 15px;
+    }
+  }
