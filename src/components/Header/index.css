@@ -39,6 +39,7 @@
     height: 20px;
     width: 20px;
     margin: 5px;
+    cursor: pointer;
   }
   
   .sections-container {
@@ -58,6 +59,7 @@
     font-weight: 600;
     color: #252020;
     margin: 6px;
+    cursor: pointer;
   }
   
   @media screen and (min-width: 577px) {

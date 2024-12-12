@@ -16,6 +16,13 @@
     height: 100px;
     width: 95px;
   }
+
+  .active-icon{
+    color: red;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+  }
   
   .product-heart-container {
     display: flex;
@@ -32,6 +39,13 @@
     font-weight: 600;
     font-size: 6px;
     color: #252020;
+    max-width: 70px;
+  }
+
+  .icon-heart{
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
   }
   
   .navigation-link {
@@ -58,8 +72,20 @@
     }
   
     .product {
-      font-size: 12px;
+      font-size: 14px;
+      max-width: 150px;
     }
+
+    .icon-heart{
+      height: 20px;
+      width: 20px;
+    }
+
+    .active-icon{
+      height: 20px;
+      width: 20px;
+    }
+
   
     .navigation-link {
       font-size: 12px;
